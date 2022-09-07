@@ -2,11 +2,9 @@ package org.example.sus.tests;
 
 import com.syscolabs.sus.functions.terminal5250.DataRoutingControl;
 import com.syscolabs.sus.functions.terminal5250.T5250Home;
-import org.example.sus.data.AccessCodeData;
-import org.example.sus.data.ExcelKeyData;
-import org.example.sus.data.LoginData;
-import org.example.sus.data.SUSScreenData;
+import org.example.sus.data.*;
 import org.example.sus.functions.sus.SUSLogin;
+import org.example.sus.functions.sus.ShipToInquiryPrompt;
 import org.example.sus.utils.ExcelUtil;
 import org.example.sus.utils.TestBase;
 import org.testng.ITestContext;
@@ -19,6 +17,7 @@ public class LoginTest extends TestBase {
 
     LoginData loginData = ExcelUtil.getLoginData(ExcelKeyData.MDM_LOGIN_KEY_01);
     SoftAssert softAssert;
+    String OpCoID = OpCoData.OPCO_056;
 
     @BeforeClass
     public void init(ITestContext iTestContext) {
@@ -35,6 +34,8 @@ public class LoginTest extends TestBase {
         T5250Home.enterQuickAccessCode(AccessCodeData.QUICK_ACCESS_CODE_SHIP_TO_MAINTENANCE,AccessCodeData.QUICK_ACCESS_TYPE,AccessCodeData.QUICK_ACCESS_NUMBER);
 //        softAssert.assertTrue(T5250Home.verifyScreen(SUSScreenData.WD.getValue()),"User not in WD screen");
 //        DataRoutingControl.enterTRANID(transactionID);
+        ShipToInquiryPrompt.viewShipToDetails(OpCoID,"166548");
+
 
     }
 }
