@@ -1,10 +1,9 @@
 package org.example.sus.functions.sus;
 
 /**
- * Created by Resitha Subbiah on 10/02/2019.
+ * Created by Lasan Rashmika on 08/09/2022.
  */
 import org.example.sus.pages.sus.*;
-//import com.sysco.mdm_customer.pages.sus.ShipToInquiryPromptPage;
 import com.syscolabs.functions.TN5250FunctionBase;
 import framework.KeyMnemonic;
 

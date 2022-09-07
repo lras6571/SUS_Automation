@@ -1,18 +1,0 @@
-
-e
-java:S1104	"OMake ref a static final constant or non-public and provide accessors if needed.(×ï¦À
-g
-java:S1104
-"RMake opCoID a static final constant or non-public and provide accessors if needed.(æÔÜt
-o
-java:S1104"TMake opCoName a static final constant or non-public and provide accessors if needed.(Âäö§ûÿÿÿÿ
-m
-java:S1104"WMake accountName a static final constant or non-public and provide accessors if needed.(ºÙ¾
-{
-java:S1104"`Make supportRequestNumber a static final constant or non-public and provide accessors if needed.(Ì›˜øÿÿÿÿ
-r
-java:S1104"WMake vertexTaxTX a static final constant or non-public and provide accessors if needed.(€˜ÿÚÿÿÿÿÿ
-r
-java:S1104"WMake vertexTaxLA a static final constant or non-public and provide accessors if needed.(ûË†üÿÿÿÿ
-m
-java:S1104"WMake vertexTaxNM a static final constant or non-public and provide accessors if needed.(ç´Å
