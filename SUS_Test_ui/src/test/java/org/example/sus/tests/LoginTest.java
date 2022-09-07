@@ -29,11 +29,8 @@ public class LoginTest extends TestBase {
 
         loginData = ExcelUtil.getLoginData(ExcelKeyData.SUS_AS242K_KEY);
         SUSLogin.loginToSUS(loginData);
-//        softAssert.assertTrue(T5250Home.verifyScreen(SUSScreenData.HOME_PAGE.getValue()),"User is not in Home page");
         T5250Home.navigateToQuickAccessPage();
         T5250Home.enterQuickAccessCode(AccessCodeData.QUICK_ACCESS_CODE_SHIP_TO_MAINTENANCE,AccessCodeData.QUICK_ACCESS_TYPE,AccessCodeData.QUICK_ACCESS_NUMBER);
-//        softAssert.assertTrue(T5250Home.verifyScreen(SUSScreenData.WD.getValue()),"User not in WD screen");
-//        DataRoutingControl.enterTRANID(transactionID);
         ShipToInquiryPrompt.viewShipToDetails(OpCoID,"166548");
 
 
