@@ -3,8 +3,8 @@ package org.example.sus.pages.sus;
 /**
  * SUSLoginPage - This class contains row and column details for logging into the SUS box
  *
- * @author Resitha Subbiah
- * @since 11/25/2019
+ * @author Lasan Rashmika
+ * @since 08/09/2022
  * @version 1.0
  */
 

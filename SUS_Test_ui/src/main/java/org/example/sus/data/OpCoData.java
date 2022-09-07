@@ -1,7 +1,7 @@
 package org.example.sus.data;
 
 /**
- * Created by Resitha Subbiah on 08/16/2019.
+ * Created by Lasan Rashmika on 08/09/2022.
  */
 
 public class OpCoData {

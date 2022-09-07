@@ -3,8 +3,8 @@ package org.example.sus.functions.sus;
 /**
  * SUSLogin - This class is for logging into the SUS box
  *
- * @author Resitha Subbiah
- * @since 11/25/2019
+ * @author Lasan Rashmika
+ * @since 08/09/2022
  * @version 1.0
  */
 
