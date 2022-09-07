@@ -1,0 +1,36 @@
+
+e
+java:S1104	"OMake ref a static final constant or non-public and provide accessors if needed.(×ï¦À
+k
+java:S1104
+"UMake accountID a static final constant or non-public and provide accessors if needed.(¹¡í«
+m
+java:S1104"WMake accountName a static final constant or non-public and provide accessors if needed.(ºÙ¾
+f
+java:S1104"PMake opCo a static final constant or non-public and provide accessors if needed.(ıÑÂ
+p
+java:S1104"UMake territory a static final constant or non-public and provide accessors if needed.(œ¿Äµÿÿÿÿÿ
+|
+java:S1104"aMake accountCreateMaintain a static final constant or non-public and provide accessors if needed.(ÿ¶Ïùøÿÿÿÿ
+r
+java:S1104"WMake accountType a static final constant or non-public and provide accessors if needed.(ùŒÖøÿÿÿÿ
+u
+java:S1104"ZMake shippingStreet a static final constant or non-public and provide accessors if needed.(÷¯±Šùÿÿÿÿ
+s
+java:S1104"XMake shippingCity a static final constant or non-public and provide accessors if needed.(Ü˜†îûÿÿÿÿ
+v
+java:S1104"[Make shippingCountry a static final constant or non-public and provide accessors if needed.(…‰¸‰úÿÿÿÿ
+o
+java:S1104"YMake shippingState a static final constant or non-public and provide accessors if needed.(Òæñƒ
+t
+java:S1104"^Make shippingPostalCode a static final constant or non-public and provide accessors if needed.(¢É›—
+z
+java:S1104"_Make shippingPhoneNumber a static final constant or non-public and provide accessors if needed.(äÙÈèÿÿÿÿÿ
+t
+java:S1104"YMake typeOfCuisine a static final constant or non-public and provide accessors if needed.(ĞŸåçûÿÿÿÿ
+v
+java:S1104"[Make typeOfOperation a static final constant or non-public and provide accessors if needed.(£Â¾†ûÿÿÿÿ
+{
+java:S1104"`Make supportRequestNumber a static final constant or non-public and provide accessors if needed.(Ì›˜øÿÿÿÿ
+y
+java:S1104"cMake creditApplicationStatus a static final constant or non-public and provide accessors if needed.(æ³éÓ

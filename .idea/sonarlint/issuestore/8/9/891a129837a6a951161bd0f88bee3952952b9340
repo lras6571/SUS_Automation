@@ -1,0 +1,84 @@
+
+j
+java:S1104"OMake Ref a static final constant or non-public and provide accessors if needed.(·óÕøÿÿÿÿ
+t
+java:S1104"^Make Application_Status a static final constant or non-public and provide accessors if needed.(ìçŒ¤
+f
+java:S1104"PMake Name a static final constant or non-public and provide accessors if needed.(õ¤üà
+w
+java:S1104"\Make LegalCompanyName a static final constant or non-public and provide accessors if needed.(·‘£ßúÿÿÿÿ
+r
+java:S1104
+"\Make Bill_to_RiskCode a static final constant or non-public and provide accessors if needed.(·„–Ú
+x
+java:S1104"]Make Bill_to_Collector a static final constant or non-public and provide accessors if needed.(Ş„àßùÿÿÿÿ
+s
+java:S1104"XMake Credit_Limit a static final constant or non-public and provide accessors if needed.(´¦Öÿûÿÿÿÿ
+u
+java:S1104"ZMake Federal_Tax_ID a static final constant or non-public and provide accessors if needed.(Ô›åÄıÿÿÿÿ
+y
+java:S1104"^Make Credit_Analyst_CCA a static final constant or non-public and provide accessors if needed.(éÈªÎıÿÿÿÿ
+{
+java:S1104"eMake Payment_Terms_Policy_Text a static final constant or non-public and provide accessors if needed.(• Ğˆ
+s
+java:S1104"XMake Annual_Sales a static final constant or non-public and provide accessors if needed.(¢¸úÿÿÿÿ
+l
+java:S1104"VMake Tax_Exempt a static final constant or non-public and provide accessors if needed.(Ä¬Ç
+|
+java:S1104"aMake Year_Business_Founded a static final constant or non-public and provide accessors if needed.(Ä•Ä˜ÿÿÿÿÿ
+z
+java:S1104"_Make Number_of_Employees a static final constant or non-public and provide accessors if needed.(ƒ©âÀùÿÿÿÿ
+r
+java:S1104"WMake Ship_to_GPC a static final constant or non-public and provide accessors if needed.(™ç«Şÿÿÿÿÿ
+x
+java:S1104"]Make Profit_Non_Profit a static final constant or non-public and provide accessors if needed.(±öşÕÿÿÿÿÿ
+q
+java:S1104"VMake Registered a static final constant or non-public and provide accessors if needed.(Ï¨¡äøÿÿÿÿ
+
+java:S1104"dMake Operation_on_Tribal_Land a static final constant or non-public and provide accessors if needed.(³ö¨üÿÿÿÿ
+s
+java:S1104"]Make Style_of_Business a static final constant or non-public and provide accessors if needed.(ÇÏ·
+l
+java:S1104"VMake REQ_Number a static final constant or non-public and provide accessors if needed.(¬¸Ìß
+s
+java:S1104"]Make Tax_Exempt_Number a static final constant or non-public and provide accessors if needed.(¨èÈò
+|
+java:S1104"gMake Number_of_Years_in_Business a static final constant or non-public and provide accessors if needed.(ÚƒÑ]
+r
+java:S1104"\Make Autocash_Control a static final constant or non-public and provide accessors if needed.(¾¡Û§
+}
+java:S1104 "bMake Cash_Receipts_Autocash a static final constant or non-public and provide accessors if needed.(˜Óûøÿÿÿÿ
+s
+java:S1104!"XMake Aging_Policy a static final constant or non-public and provide accessors if needed.(íË£ûÿÿÿÿ
+w
+java:S1104""\Make Auto_Cash_Policy a static final constant or non-public and provide accessors if needed.(³ô‰„ûÿÿÿÿ
+|
+java:S1104#"aMake Cash_Tolerance_Policy a static final constant or non-public and provide accessors if needed.(µ¾£àıÿÿÿÿ
+h	java:S116"NRename this field "Ref" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·óÕøÿÿÿÿ
+r	java:S116"]Rename this field "Application_Status" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìçŒ¤
+d	java:S116"ORename this field "Name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ¤üà
+u	java:S116"[Rename this field "LegalCompanyName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·‘£ßúÿÿÿÿ
+p	java:S116
+"[Rename this field "Bill_to_RiskCode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·„–Ú
+v	java:S116"\Rename this field "Bill_to_Collector" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş„àßùÿÿÿÿ
+q	java:S116"WRename this field "Credit_Limit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´¦Öÿûÿÿÿÿ
+s	java:S116"YRename this field "Federal_Tax_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô›åÄıÿÿÿÿ
+w	java:S116"]Rename this field "Credit_Analyst_CCA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÈªÎıÿÿÿÿ
+y	java:S116"dRename this field "Payment_Terms_Policy_Text" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(• Ğˆ
+q	java:S116"WRename this field "Annual_Sales" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢¸úÿÿÿÿ
+j	java:S116"URename this field "Tax_Exempt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä¬Ç
+z	java:S116"`Rename this field "Year_Business_Founded" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä•Ä˜ÿÿÿÿÿ
+x	java:S116"^Rename this field "Number_of_Employees" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ©âÀùÿÿÿÿ
+p	java:S116"VRename this field "Ship_to_GPC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ç«Şÿÿÿÿÿ
+v	java:S116"\Rename this field "Profit_Non_Profit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±öşÕÿÿÿÿÿ
+o	java:S116"URename this field "Registered" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¨¡äøÿÿÿÿ
+}	java:S116"cRename this field "Operation_on_Tribal_Land" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ö¨üÿÿÿÿ
+q	java:S116"\Rename this field "Style_of_Business" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÏ·
+j	java:S116"URename this field "REQ_Number" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬¸Ìß
+q	java:S116"\Rename this field "Tax_Exempt_Number" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨èÈò
+z	java:S116"fRename this field "Number_of_Years_in_Business" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚƒÑ]
+p	java:S116"[Rename this field "Autocash_Control" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾¡Û§
+{	java:S116 "aRename this field "Cash_Receipts_Autocash" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Óûøÿÿÿÿ
+q	java:S116!"WRename this field "Aging_Policy" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íË£ûÿÿÿÿ
+u	java:S116""[Rename this field "Auto_Cash_Policy" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ô‰„ûÿÿÿÿ
+z	java:S116#"`Rename this field "Cash_Tolerance_Policy" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ¾£àıÿÿÿÿ
