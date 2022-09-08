@@ -1,0 +1,15 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŸÎ…Úùÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŸÎ…Úùÿÿÿÿ
+u
+java:S1192"ZUse already-defined constant 'MDM_CCA_LOGIN_KEY_01' instead of duplicating its value here.(éËÅÿÿÿÿÿÿ
+l
+java:S1192"VUse already-defined constant 'MDM_LOGIN_KEY_01' instead of duplicating its value here.(‚•´¾
+z
+java:S4144"_Update this method so that its implementation is not identical to "setLoginKeyData" on line 12.(§çˆ½øÿÿÿÿ
+R
+java:S1117"<Rename "loginMap" which hides the field declared at line 11.(Ñõ„”
+C
+java:S1481"-Remove this unused "loginMap" local variable.(Ñõ„”

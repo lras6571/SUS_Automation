@@ -1,0 +1,18 @@
+
+[	java:S1124"FDefine and throw a dedicated exception instead of using a generic one.(ÑÔë™
+k
+java:S1192á"TUse already-defined constant 'HOME_DIRECTORY' instead of duplicating its value here.(žÈì´
+v
+java:S1488+"`Immediately return this expression instead of assigning it to the temporary variable "rowCount".(æÝðø
+{
+java:S1488X"eImmediately return this expression instead of assigning it to the temporary variable "vertexTaxData".(±²½ô
+`
+java:S2259ñ"DA "NullPointerException" could be thrown; "writer" is nullable here.(ÄËªŸÿÿÿÿÿ
+m
+java:S3776e"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¿ÁÂÁùÿÿÿÿ
+Y	java:S125‰"<This block of commented-out lines of code should be removed.(Äà8Í›ˆ¼±0
+V	java:S899é";Do something with the "boolean" value returned by "delete".(é‘‚©úÿÿÿÿ
+j
+java:S4042é"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(é‘‚©úÿÿÿÿ
+F
+java:S2093ì"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
