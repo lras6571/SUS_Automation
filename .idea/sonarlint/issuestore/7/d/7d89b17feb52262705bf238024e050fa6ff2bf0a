@@ -1,22 +1,0 @@
-
-\
-java:S1192"FDefine a constant instead of duplicating this literal "false" 4 times.(ƒÁõí
-z
-java:S1104"_Make SALESFORCE_BASE_URI a static final constant or non-public and provide accessors if needed.(ý˜š¤ýÿÿÿÿ
-r
-java:S1104%"WMake shipToSSAID a static final constant or non-public and provide accessors if needed.(ÎÔÜÄüÿÿÿÿ
-l
-java:S1104&"WMake billToSSAID a static final constant or non-public and provide accessors if needed.(—¼³
-T
-java:S1444"9Make this "public static SALESFORCE_BASE_URI" field final(ý˜š¤ýÿÿÿÿ
-L
-java:S1444%"1Make this "public static shipToSSAID" field final(ÎÔÜÄüÿÿÿÿ
-F
-java:S1444&"1Make this "public static billToSSAID" field final(—¼³
-o	java:S1153"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ù´üÀ
-y
-java:S3008"^Rename this field "SALESFORCE_BASE_URI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ý˜š¤ýÿÿÿÿ
-W
-java:S1075"ARefactor your code to get this URI from a customizable parameter.(¦½¼’
-\
-java:S1075"ARefactor your code to get this URI from a customizable parameter.(Â°ö™þÿÿÿÿ
