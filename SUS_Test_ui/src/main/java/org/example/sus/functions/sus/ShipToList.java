@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 
 public class ShipToList extends TN5250FunctionBase {
 
-    public static final Logger logger = Logger.getLogger(ShipToInquiryPrompt.class.getName());
+    public static final Logger logger = Logger.getLogger(ShipToList.class.getName());
 
     public static void selectActiveAccount(String statusCode) throws Exception {
 
@@ -25,7 +25,7 @@ public class ShipToList extends TN5250FunctionBase {
         sendKeys(KeyMnemonic.ENTER);
         logger.info("Enter Option Key in front of the Account Name");
         sendKeys(KeyMnemonic.ENTER);
-        logger.info("Select the Account From the List");
+        logger.info("Select the Account From the List - Clicked Enter");
 
     }
 }
