@@ -18,13 +18,42 @@ import java.util.logging.Logger;
 public class SUSLogin extends TN5250FunctionBase {
     static Logger logger = Logger.getLogger(SUSLogin.class.getName());
     
-    public static void loginToSUS(LoginData loginData) throws Exception{
-        connectToBox(loginData.iPAddress, loginData.box);
+//    public static void loginToSUS(LoginData loginData) throws Exception{
+//        connectToBox(loginData.iPAddress, loginData.box);
+//        if (waitForScreenwithText("USER ID", 5)) {
+//            logger.info("Connected to SUS box");
+//        }
+//        sendText(loginData.userName, SUSLoginPage.ROW_NO_SUS_USER_NAME, SUSLoginPage.COL_NO_SUS_USER_NAME);
+//        sendText(loginData.password, SUSLoginPage.ROW_NO_SUS_PASSWORD, SUSLoginPage.COL_NO_SUS_PASSWORD);
+//        sendKeys(KeyMnemonic.ENTER);
+//        if (verifyScreen("Display Program Message")) {
+//            sendKeys(KeyMnemonic.ENTER);
+//        }
+//
+//        if (verifyScreen("FreshPoint IT Main Menu")) {
+//            sendText("4", SUSLoginPage.ROW_NO_FRESHPOINT_IT_HOME, SUSLoginPage.COL_NO_FRESHPOINT_IT_HOME);
+//            sendKeys(KeyMnemonic.ENTER);
+//        }
+//
+//        if (verifyScreen("FreshPoint Distribution System")) {
+//            sendText("3", SUSLoginPage.ROW_NO_FRESHPOINT_DISTRIBUTION, SUSLoginPage.COL_NO_FRESHPOINT_DISTRIBUTION);
+//            sendKeys(KeyMnemonic.ENTER);
+//        }
+//
+//        if (verifyScreen("Order Entry Menu")) {
+//            sendText("4", SUSLoginPage.ROW_NO_FRESHPOINT_ORDER_ENTRY, SUSLoginPage.COL_NO_FRESHPOINT_ORDER_ENTRY);
+//            sendKeys(KeyMnemonic.ENTER);
+//        }
+//    }
+
+
+    public static void loginToSUS(String susUserName,String susPassword, String susIPAddress, String susBoxName) throws Exception{
+        connectToBox(susIPAddress,susBoxName);
         if (waitForScreenwithText("USER ID", 5)) {
             logger.info("Connected to SUS box");
         }
-        sendText(loginData.userName, SUSLoginPage.ROW_NO_SUS_USER_NAME, SUSLoginPage.COL_NO_SUS_USER_NAME);
-        sendText(loginData.password, SUSLoginPage.ROW_NO_SUS_PASSWORD, SUSLoginPage.COL_NO_SUS_PASSWORD);
+        sendText(susUserName, SUSLoginPage.ROW_NO_SUS_USER_NAME, SUSLoginPage.COL_NO_SUS_USER_NAME);
+        sendText(susPassword, SUSLoginPage.ROW_NO_SUS_PASSWORD, SUSLoginPage.COL_NO_SUS_PASSWORD);
         sendKeys(KeyMnemonic.ENTER);
         if (verifyScreen("Display Program Message")) {
             sendKeys(KeyMnemonic.ENTER);

@@ -14,6 +14,7 @@ public class ShipToInquiryPrompt extends TN5250FunctionBase {
     public static final Logger logger = Logger.getLogger(ShipToInquiryPrompt.class.getName());
 
     public static void viewShipToDetails(String strOpCo, String strShipToNumber) throws Exception{
+
         sendText(strOpCo,ShipToInquiryPromptPage.ROW_NO_OPCO,ShipToInquiryPromptPage.COL_NO_OPCO);
         sendKeys(KeyMnemonic.FIELD_EXIT);
         sendText(strShipToNumber,ShipToInquiryPromptPage.ROW_NO_SHIP_TO_NUMBER,ShipToInquiryPromptPage.COL_NO_SHIP_TO_NUMBER);

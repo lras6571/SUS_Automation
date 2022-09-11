@@ -54,4 +54,11 @@ public class Constants {
 
     public static final String SR_TO_VERIFY = "";
 
+
+    //SUS Box Credentials
+    public static final String SUS_USER_NAME = "C056IRDD";
+    public static final String SUS_PASSWORD = "SYSCO123@";
+    public static final String SUS_IP = "10.201.225.73";
+    public static final String SUS_NAME = "as242k";
+
 }
