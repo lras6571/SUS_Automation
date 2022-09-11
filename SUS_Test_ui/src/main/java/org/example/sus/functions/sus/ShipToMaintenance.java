@@ -14,4 +14,16 @@ public class ShipToMaintenance extends TN5250FunctionBase {
         sendKeys(KeyMnemonic.PF7);
     }
 
+
+    //Click F4 Button for Prompt
+    public static void clickPrompt() throws Exception {
+
+        sendKeys(KeyMnemonic.PF4);
+    }
+
+    //Click F17 Button for Prompt
+    public static void clickStatus() throws Exception {
+        sendKeys(KeyMnemonic.PF17);
+    }
+
 }

@@ -12,6 +12,7 @@ public class ShipToInquiryPromptPage {
     public static final int ROW_NO_SHIP_TO_NUMBER = 10;
     public static final int COL_NO_SHIP_TO_NUMBER = 23;
     public static final int LEN_SHIP_TO_NUMBER = 14;
+
     public static final int ROW_NO_OPCO = 8;
     public static final int COL_NO_OPCO = 23;
     public static final int LEN_NO_OPCO = 5;

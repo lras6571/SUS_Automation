@@ -28,6 +28,7 @@ public class ShipToInquiry extends TN5250FunctionBase {
     }
 
     public static String getShipToNumber(){
+
         return getLabelText(ShipToInquiryPage.ROW_NO_SHIP_TO_NUMBER,ShipToInquiryPage.COL_NO_SHIP_TO_NUMBER,ShipToInquiryPage.LEN_SHIP_TO_NUMBER);
     }
 

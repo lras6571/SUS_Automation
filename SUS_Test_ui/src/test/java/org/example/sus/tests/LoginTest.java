@@ -4,11 +4,7 @@ import com.syscolabs.sus.functions.terminal5250.T5250Home;
 import org.example.sus.common.Constants;
 import org.example.sus.data.AccessCodeData;
 import org.example.sus.data.OpCoData;
-import org.example.sus.functions.sus.SUSLogin;
-import org.example.sus.functions.sus.ShipToInquiry;
-import org.example.sus.functions.sus.ShipToInquiryPrompt;
-import org.example.sus.functions.sus.ShipToMaintenancePrompt;
-import org.example.sus.pages.sus.ShipToMaintenancePromptPage;
+import org.example.sus.functions.sus.*;
 import org.example.sus.utils.TestBase;
 import org.testng.ITestContext;
 import org.testng.annotations.BeforeClass;
@@ -30,11 +26,16 @@ public class LoginTest extends TestBase {
         SUSLogin.loginToSUS(Constants.SUS_USER_NAME, Constants.SUS_PASSWORD, Constants.SUS_IP, Constants.SUS_NAME);
         T5250Home.navigateToQuickAccessPage();
         T5250Home.enterQuickAccessCode(AccessCodeData.QUICK_ACCESS_CODE_SHIP_TO_MAINTENANCE, AccessCodeData.QUICK_ACCESS_TYPE, AccessCodeData.QUICK_ACCESS_NUMBER);
+        ShipToMaintenance.clickPrompt();
+        ShipToMaintenance.clickStatus();
+        ShipToList.selectActiveAccount("AC");
+        System.out.println("Ship To Number :" + ShipToInquiry.getShipToNumber());
+
         ShipToInquiryPrompt.viewShipToDetails(OpCoID, "166548");
         softAssert.assertEquals(ShipToInquiry.getShipToNumber(), "166548", "Incorrect Ship-To number displayed in SUS");
         System.out.println("Bill To Number :" + ShipToInquiry.getBillToNumber());
         System.out.println("Ship To Number :" + ShipToInquiry.getBillToName());
-        ShipToMaintenancePrompt.editShipToAddressLineTwoDetails(OpCoID, "166548");
+        ShipToMaintenancePrompt.editShipToAddressLineTwoDetails(OpCoID, "changed");
 
 
     }
