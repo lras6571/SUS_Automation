@@ -20,8 +20,10 @@ public class LoginTest extends TestBase {
         iTestContext.setAttribute("feature", "Login - ValidLogin");
     }
 
+
+//    CDI-TC-175
     @Test
-    public void testLogin() throws Exception {
+    public void testARPCUValue() throws Exception {
 
         SUSLogin.loginToSUS(Constants.SUS_USER_NAME, Constants.SUS_PASSWORD, Constants.SUS_IP, Constants.SUS_NAME);
         T5250Home.navigateToQuickAccessPage();
@@ -30,16 +32,30 @@ public class LoginTest extends TestBase {
         ShipToMaintenancePrompt.clickStatus();
         ShipToList.selectActiveAccount("AC");
         System.out.println("Ship To Number is :" + ShipToMaintenanceDemographics.getShipToNumber());
-        ShipToMaintenanceDemographics.editShipToAddressLineTwoDetails("changed");
+        ShipToMaintenanceDemographics.editShipToAddressLineTwoDetails("changed1");
         ShipToMaintenanceDemographics.saveRecord();
 
 
-//        ShipToInquiryPrompt.viewShipToDetails(OpCoID, "166548");
-//        softAssert.assertEquals(ShipToInquiry.getShipToNumber(), "166548", "Incorrect Ship-To number displayed in SUS");
-//        System.out.println("Bill To Number :" + ShipToInquiry.getBillToNumber());
-//        System.out.println("Ship To Number :" + ShipToInquiry.getBillToName());
-//        ShipToMaintenancePrompt.editShipToAddressLineTwoDetails(OpCoID, "changed");
+        ShipToInquiryPrompt.viewShipToDetails(OpCoID, "166548");
+        softAssert.assertEquals(ShipToInquiry.getShipToNumber(), "166548", "Incorrect Ship-To number displayed in SUS");
+        System.out.println("Bill To Number :" + ShipToInquiry.getBillToNumber());
+        System.out.println("Ship To Number :" + ShipToInquiry.getBillToName());
+    }
 
+
+    //CDI-TC-183
+    @Test
+    public void testUSCBJOPFValue() throws Exception {
+
+        SUSLogin.loginToSUS(Constants.SUS_USER_NAME, Constants.SUS_PASSWORD, Constants.SUS_IP, Constants.SUS_NAME);
+        T5250Home.navigateToQuickAccessPage();
+        T5250Home.enterQuickAccessCode(AccessCodeData.QUICK_ACCESS_CODE_SHIP_TO_MAINTENANCE, AccessCodeData.QUICK_ACCESS_TYPE, AccessCodeData.QUICK_ACCESS_NUMBER);
+        ShipToMaintenancePrompt.selectPrompt();
+        ShipToMaintenancePrompt.clickStatus();
+        ShipToList.selectActiveAccount("AC");
+        System.out.println("Ship To Number is :" + ShipToMaintenanceDemographics.getShipToNumber());
+        ShipToMaintenanceDemographics.editShipToStoreNumber("54321");
+        ShipToMaintenanceDemographics.saveRecord();
 
     }
 }

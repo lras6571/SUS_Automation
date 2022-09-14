@@ -17,16 +17,27 @@ public class ShipToMaintenanceDemographics extends TN5250FunctionBase {
     public static final Logger logger = Logger.getLogger(ShipToMaintenanceDemographics.class.getName());
 
 
-    public static void editShipToAddressLineTwoDetails(String strShipToNumber) throws Exception {
+    public static void editShipToAddressLineTwoDetails(String strShipToAddressTwo) throws Exception {
 
-        sendText(strShipToNumber, ShipToMaintenanceDemographicsPage.ROW_NO_SHIP_TO_ADDRESS_TWO, ShipToMaintenanceDemographicsPage.COL_NO_SHIP_TO_ADDRESS_TWO);
-        logger.info("Save the Change");
+        sendText(strShipToAddressTwo, ShipToMaintenanceDemographicsPage.ROW_NO_SHIP_TO_ADDRESS_TWO, ShipToMaintenanceDemographicsPage.COL_NO_SHIP_TO_ADDRESS_TWO);
+        logger.info("Enter the Ship To Address Line Two");
+    }
+
+
+    public static void editShipToStoreNumber(String strShipToStoreNumber) throws Exception {
+
+        sendText(strShipToStoreNumber, ShipToMaintenanceDemographicsPage.ROW_NO_SHIP_TO_STORE_NUMBER, ShipToMaintenanceDemographicsPage.COL_NO_SHIP_TO_STORE_NUMBER);
+        logger.info("Enter the Ship To Store Number");
     }
 
 
     public static void saveRecord() throws Exception {
+
         sendKeys(KeyMnemonic.PF7);
+        sendKeys(KeyMnemonic.ENTER);
+        logger.info("Save the Record in SUS Box");
     }
+
 
     public static String getShipToNumber(){
 

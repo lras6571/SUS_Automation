@@ -6,14 +6,12 @@ package org.example.sus.functions.sus;
 
 import com.syscolabs.functions.TN5250FunctionBase;
 import framework.KeyMnemonic;
-import org.example.sus.pages.sus.ShipToMaintenancePromptPage;
 
 import java.util.logging.Logger;
 
 public class ShipToMaintenancePrompt extends TN5250FunctionBase {
 
     public static final Logger logger = Logger.getLogger(ShipToMaintenancePrompt.class.getName());
-
 
 
     //Click F4 Button for Prompt
